@@ -1,5 +1,6 @@
 package assignments.personinheritence;
 
+// Dummy comment
 public interface HumanBeing {
 
     public abstract String introduceYourself();

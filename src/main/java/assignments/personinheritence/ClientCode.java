@@ -3,7 +3,7 @@ package assignments.personinheritence;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-// Dummy comment
+//Client code
 public class ClientCode {
 
     public static void main(String[] args) {

@@ -2,6 +2,7 @@ package assignments.personinheritence;
 
 import java.util.ArrayList;
 
+//Person class
 public class Person {
 
     private String Name;

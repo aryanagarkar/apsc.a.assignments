@@ -2,6 +2,7 @@ package assignments.personinheritence;
 
 import java.util.ArrayList;
 
+//Student class
 public class Student extends Person implements HumanBeing {
 
     private int Grade;

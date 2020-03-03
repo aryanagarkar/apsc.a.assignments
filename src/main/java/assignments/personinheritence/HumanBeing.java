@@ -67,7 +67,7 @@ public class HumanBeing implements ILivingBeing {
 
     /**
      *
-     * @return age 
+     * @return age
      */
     public int getAge() {
         return Age;

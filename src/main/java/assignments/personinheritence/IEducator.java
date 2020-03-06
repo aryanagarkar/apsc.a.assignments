@@ -1,20 +1,13 @@
+//Arya Nagarkar
+//AP computer science A
+//Mr. Woffindin
+//3-6-29
+//Inheritance project
 package assignments.personinheritence;
 
-/**
- *
- * @author arya
- */
 public interface IEducator {
 
-    /**
-     *
-     * @return type of an object
-     */
-    public abstract String getType();
+    public abstract void getCoursesTaught();
 
-    /**
-     *
-     * @return department of an object
-     */
-    public abstract String getDepartment();
+    public abstract String getSchoolTaught();
 }

@@ -1,14 +1,11 @@
+//Arya Nagarkar
+//AP computer science A
+//Mr. Woffindin
+//3-6-29
+//Inheritance project
 package assignments.personinheritence;
 
-/**
- *
- * @author arya
- */
 public interface ILivingBeing {
 
-    /**
-     *
-     * @return type of an objects
-     */
-    public abstract String getType();
+    public abstract String GetSpecies();
 }

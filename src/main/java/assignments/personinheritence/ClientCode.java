@@ -1,18 +1,15 @@
+//Arya Nagarkar
+//AP computer science A
+//Mr. Woffindin
+//3-6-29
+//Inheritance project
 package assignments.personinheritence;
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
-/**
- *
- * @author arya
- */
 public class ClientCode {
 
-    /**
-     *
-     * @param args
-     */
     public static void main(String[] args) {
         ArrayList<HumanBeing> people = new ArrayList<HumanBeing>();
         Scanner scanner = new Scanner(System.in);
@@ -65,8 +62,8 @@ public class ClientCode {
 
         Teacher Sally = new Teacher("Sally", 27, 10, "Big picture", "girl");
         System.out.println();
-        Sally.getType();
-        Sally.getDepartment();
+        Sally.getCoursesTaught();
+        Sally.getSchoolTaught();
     }
 
     /**

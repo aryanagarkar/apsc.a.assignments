@@ -2,13 +2,13 @@
 //Recursion lab
 //AP computer science A
 //Mr. Woffindin
-//3-10-19
+//3-10-20
 
 package assignments.recursionLab;
 
 import java.util.Scanner;
 
-public class Recursion {
+public class RecursionLab {
 
     public static void main(String[] args) {
       Scanner scanner = new Scanner(System.in);

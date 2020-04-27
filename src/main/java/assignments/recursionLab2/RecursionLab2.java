@@ -37,9 +37,26 @@ public class RecursionLab2 {
     }
 
     public static boolean isPalindrome(String word) {
-        String reverse = reverse(word);
+        /*String reverse = reverse(word);
         if (word.equals(reverse)) {
             return true;
+        } else {
+            return false;
+        }*/
+
+        if (word.length() == 1) {
+            return true;
+        }
+        if (word.length() == 2) {
+            if (word.charAt(0) == word.charAt(1)) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+        if (word.charAt(0) == word.charAt(word.length() - 1)) {
+            String subString = word.substring(1, word.length() - 1);
+            return isPalindrome(subString);
         } else {
             return false;
         }
